@@ -20,7 +20,14 @@
 
 // Implement your algorithms for assignment 2 in this file.
 
-
+/**
+ * @brief 
+ * 
+ * @tparam ITERATOR 
+ * @param begin 
+ * @param end 
+ * @return int 
+ */
 template <typename ITERATOR>
 int range_sum(ITERATOR begin, ITERATOR end) {
     int sum = 0;
