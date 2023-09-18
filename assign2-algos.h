@@ -35,7 +35,14 @@ int range_sum(ITERATOR begin, ITERATOR end) {
         sum += *it;
     return sum;
 }
-
+/**
+ * @brief 
+ * 
+ * @tparam ITERATOR 
+ * @param begin 
+ * @param end 
+ * @return double 
+ */
 template <typename ITERATOR>
     double range_avg(ITERATOR begin, ITERATOR end) {
     double sum = 0;
